@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" type="text/css" href="css/uikit.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css"/>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+	<link rel="icon" href="images/favicon.png" type="images/png" sizes="32x32">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	
+
+	<title>Janta Group Of Institutions</title>
+</head>
+
+<body>
+
+<section>
+	<div class="login-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="login-wrap">
+						<div class="logo-login">
+							<img src="images/jgi-logo.svg" alt="">
+						</div>
+						<form action="#" method="get">
+							<div class="form-group">
+								<input type="text" class="form-control default-input" placeholder="Enter Name">
+							</div>
+							<div class="form-group">
+								<input type="tel" class="form-control default-input" placeholder="Phone Number">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control default-input" placeholder="Enter email address">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control default-input" placeholder="password">
+							</div>
+							<div class="form-group mt-4 mb-0">
+								<input type="submit" class="btn btn-primary theme-btn border-0 w-100" value="Sign Up" placeholder="password">
+							</div>
+							<div class="option-log text-center">
+								Have already account? <a href="login.html">Login</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Optional JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>  
+
+<script src="js/uikit.min.js"></script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 5) {
+			$('header').addClass("sticky");
+		} else {
+			$('header').removeClass("sticky");
+		}
+	});
+</script>
+
+<script>
+  	$('#messages-view').owlCarousel({
+    loop: true,
+    autoplay: true,
+    margin: 30,
+    dots: true,
+    nav: false,
+    items: 1,
+    responsive:{
+      768:{
+          items:2
+      }
+  	}
+	})
+
+  	// Gallery
+		$(document).ready(function(){
+		  $(".gallery-img").click(function(){
+		  var t = $(this).attr("src");
+		  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+		  $("#myModal").modal();
+		});
+		});//EOF Document.ready
+
+		$(document).ready(function(){
+      $(".search-bar button").click(function(){
+        $("body").toggleClass("input-search");
+      });
+    });
+$('.newslist').owlCarousel({
+    loop: true,
+    autoplay: true,
+    margin: 30,
+    dots: true,
+    vertically: true,
+    autoplayHoverPause: true,
+    nav: false,
+    items: 5,
+    responsive:{
+      768:{
+          items:1,
+          dots: false,
+    		nav: false
+      }
+  	}
+	})
+ </script>
+</body>
+</html>

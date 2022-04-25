@@ -1,0 +1,493 @@
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 48.6px; }
+
+  h2 {
+    font-size: 36px; }
+
+  h3 {
+    font-size: 36px; }
+
+  h4 {
+    font-size: 39.6px; }
+
+  h5 {
+    font-size: 27px; }
+
+  h6 {
+    font-size: 18.45px; }
+
+  .btn.theme-btn {
+    padding: 11px 20px;
+    font-size: 13.5px; }
+
+  body {
+    font-size: 15px; }
+
+  p {
+    font-size: 15px; }
+
+  .top-header {
+    padding: 6px 0; }
+    .top-header span {
+      width: 20px; }
+      .top-header span img {
+        height: 14.5px; }
+    .top-header .left-top li:nth-child(2), .top-header .right-top li:nth-child(2) {
+      padding: 0 3px;
+      margin: 0 3px; }
+      .top-header .left-top li:nth-child(2) span img, .top-header .right-top li:nth-child(2) span img {
+        height: 11px; }
+    .top-header .left-top li:nth-child(3) span img, .top-header .right-top li:nth-child(3) span img {
+      height: 16px; }
+    .top-header .left-top li a, .top-header .right-top li a {
+      font-size: 12.5px;
+      padding: 0 8px; }
+    .top-header .col-social {
+      justify-content: center;
+      margin: 10px 0 0; }
+
+  header .main-header {
+    top: 58.5px; }
+
+  .gbs-logo {
+    padding: 5px 0; }
+    .gbs-logo a img {
+      height: 62px; }
+
+  #gbs-navs .navbar .nav-item .nav-link {
+    padding: 0 15px; }
+
+  .gbs-slides .carousel-caption {
+    max-width: 670px; }
+    .gbs-slides .carousel-caption .slide-text {
+      padding: 20px 15px; }
+
+  .jgi-main-section {
+    margin-top: -35px; }
+
+  .pay-box {
+    padding: 35px 15px; }
+    .pay-box .pay-icon img {
+      height: 35px; }
+    .pay-box .pay-title h5 {
+      font-size: 21px; }
+
+  .section-space {
+    padding: 55px 0; }
+
+  .about-text {
+    padding-left: 0px; }
+    .about-text .about-cta {
+      margin-top: 20px; }
+
+  .list-of-institutions {
+    padding-top: 0; }
+
+  footer {
+    padding: 45px 0 0; }
+
+  .copyright {
+    padding: 18px 0;
+    margin: 30px 0 0; }
+
+  .internal-page {
+    padding: 75px 0; }
+
+  .teacher-name {
+    padding: 12px 15px; }
+    .teacher-name h5 {
+      margin-bottom: 5px;
+      font-size: 20px; }
+    .teacher-name small {
+      font-size: 15px; }
+
+  .left-positions .nav .nav-item .nav-link {
+    font-size: 14px;
+    padding: 10px 12px; }
+
+  .open-positions {
+    margin: 35px 0 0; }
+
+  .defult-list li {
+    margin-bottom: 12px;
+    background-size: 17px;
+    padding-left: 27px; }
+
+  .default-input {
+    padding: 10px 15px;
+    font-size: 15px; }
+
+  .form-group {
+    margin-bottom: 20px; }
+
+  .contact-details ul li {
+    padding: 20px 20px 0; }
+    .contact-details ul li .contact-icon img {
+      height: 38px; }
+
+  .janta-school-features {
+    padding: 20px 0; }
+    .janta-school-features .f-icon {
+      width: 45px; }
+      .janta-school-features .f-icon img {
+        width: 32px; }
+    .janta-school-features .f-text {
+      width: calc(100% - 45px); }
+      .janta-school-features .f-text p {
+        font-size: 14.5px; }
+      .janta-school-features .f-text h6 {
+        margin-bottom: 2px; }
+    .janta-school-features .degree img {
+      width: 37px; }
+    .janta-school-features .afforable img {
+      width: 30px; }
+
+  .profile-image {
+    width: 35px;
+    height: 35px; }
+    .profile-image img {
+      min-height: 35px; }
+    .profile-image .logged-username {
+      font-size: 15px; }
+
+  .student-detail-background .student-image-view {
+    margin-top: -120px; }
+    .student-detail-background .student-image-view .student-image {
+      width: 190px;
+      height: 190px; }
+      .student-detail-background .student-image-view .student-image span {
+        width: 174px;
+        height: 174px; }
+    .student-detail-background .student-image-view .pay-button {
+      right: 130px; } }
+@media (max-width: 991px) {
+  h1 {
+    font-size: 43.2px; }
+
+  h2 {
+    font-size: 32px; }
+
+  h3 {
+    font-size: 32px; }
+
+  h4 {
+    font-size: 35.2px; }
+
+  h5 {
+    font-size: 24px; }
+
+  h6 {
+    font-size: 16.4px; }
+
+  .jgi-main-section .container {
+    padding: 0 30px; }
+
+  .top-header .left-top li a {
+    text-indent: -999px;
+    padding: 0; }
+    .top-header .left-top li a span {
+      text-indent: 999px;
+      display: inline-block; }
+  .top-header .left-top li:nth-child(2) {
+    padding: 0 30px 0 16px;
+    margin: 0 16px 0 30px; }
+
+  .pay-box {
+    padding: 35px 15px; }
+    .pay-box .pay-icon img {
+      height: 30px; }
+    .pay-box .pay-title h5 {
+      font-size: 19px; }
+
+  .about-text {
+    margin: 25px 0 0; }
+
+  .gallery-list li {
+    width: 50%; }
+
+  .about-nr-labs-mba {
+    margin-bottom: 35px; }
+
+  .internal-page {
+    padding: 50px 0; }
+
+  .gallery-page .gallery-list ul li {
+    width: 50%; }
+
+  .janta-school-features .col-md-4:nth-child(2) .feature {
+    margin: 25px 0; }
+
+  .feature {
+    margin: 10px 0; }
+
+  .janta-school-features {
+    background-color: #0a0808;
+    position: relative !important;
+    margin: 20px auto 0;
+    width: calc(100% - 30px); }
+
+  .principle-message .message-to-students {
+    flex-wrap: wrap; }
+    .principle-message .message-to-students .profile-photo {
+      top: 0;
+      width: 150px;
+      height: 150px;
+      border-width: 3px;
+      padding: 3px;
+      left: calc(50% - 75px);
+      position: relative; }
+    .principle-message .message-to-students .message {
+      width: 100%;
+      margin: -75px 0 0 0; }
+    .principle-message .message-to-students .msg-container {
+      background-color: var(--white);
+      padding: 90px 25px 25px 20px;
+      text-align: center; }
+
+  .message-to-students .theme-btn {
+    position: relative;
+    z-index: 99; }
+
+  .sliderarrow {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 5px; }
+
+  .top-header .col-social {
+    justify-content: flex-end;
+    margin: 0; }
+
+  header {
+    padding-bottom: 85px; }
+    header .main-header {
+      top: 30px; }
+
+  #gbs-navs .navbar .nav-item .nav-link {
+    padding: 0 8px;
+    font-size: 14.5px; }
+
+  .btn.theme-btn {
+    padding: 9px 15px;
+    font-size: 12.5px; }
+
+  .logged-user-view .logged-username {
+    display: none; }
+
+  .student-detail-background .student-image-view {
+    margin-top: -90px; }
+    .student-detail-background .student-image-view .student-image {
+      width: 150px;
+      height: 150px; }
+      .student-detail-background .student-image-view .student-image span {
+        width: 134px;
+        height: 134px; }
+    .student-detail-background .student-image-view .pay-button {
+      right: 130px; }
+
+  .student-detail-card {
+    padding-bottom: 60px; }
+    .student-detail-card .student-image {
+      width: 175px;
+      height: 175px;
+      margin: 20px auto;
+      border-radius: 50%;
+      overflow: hidden; }
+      .student-detail-card .student-image img {
+        min-height: 150px;
+        width: 100%; }
+    .student-detail-card > a {
+      flex-wrap: wrap; }
+      .student-detail-card > a .student-details {
+        width: 100%;
+        padding: 15px 20px; }
+    .student-detail-card .proceed-payment {
+      left: 0;
+      margin-left: 20px; }
+
+  .student-detail-card .student-image {
+    width: 130px;
+    height: 130px; }
+    .student-detail-card .student-image img {
+      min-height: 130px; } }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32.3475px; }
+
+  h2 {
+    font-size: 28.5px; }
+
+  h3 {
+    font-size: 28.5px; }
+
+  h4 {
+    font-size: 31.35px; }
+
+  h5 {
+    font-size: 21.375px; }
+
+  h6 {
+    font-size: 16.03125px; }
+
+  header {
+    padding-bottom: 80px; }
+    header .navbar-toggler {
+      background-color: #fff;
+      border-color: #212121;
+      padding: 2px 8px 5px;
+      color: #ff4c8d;
+      z-index: 2;
+      margin-right: 10px;
+      width: 35px;
+      right: 0px;
+      top: -12px; }
+      header .navbar-toggler img {
+        height: 12px; }
+    header .jgi-login {
+      margin-right: 58px; }
+
+  #gbs-navs {
+    margin: 0;
+    width: 100%; }
+    #gbs-navs .navbar {
+      padding: 0;
+      min-width: 100%; }
+      #gbs-navs .navbar .nav-item .nav-link {
+        padding: 10px 0; }
+      #gbs-navs .navbar .navbar-nav {
+        padding-top: 15px; }
+
+  .search-bar, .navbar-toggler {
+    position: absolute;
+    top: -15px;
+    right: 15px; }
+
+  .jgi-main-section {
+    margin: 25px 0 0; }
+
+  .pay-box {
+    margin: 0 0 20px; }
+
+  .section-space {
+    padding: 35px 0; }
+
+  .about-gbs {
+    padding-top: 20px; }
+
+  .gbs-slides .slide-arrow span {
+    width: 32px;
+    height: 32px; }
+  .gbs-slides .slide-arrow img {
+    height: 10px; }
+  .gbs-slides .carousel-caption {
+    max-width: 100%;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100%; }
+    .gbs-slides .carousel-caption .slide-text {
+      background-color: transparent;
+      padding: 0; }
+      .gbs-slides .carousel-caption .slide-text p {
+        font-size: 17px; }
+    .gbs-slides .carousel-caption .slide-cta {
+      margin-top: 10px; }
+
+  .btn.theme-btn {
+    padding: 9px 17px;
+    font-size: 13px; }
+
+  #gallery {
+    margin-top: 25px; }
+
+  .about-nr-labs-mba {
+    margin-bottom: 27px; }
+
+  .footer-links {
+    margin-bottom: 25px; }
+
+  .position-detils {
+    margin-top: 25px; }
+
+  .contact-details {
+    margin-top: 20px; }
+    .contact-details ul {
+      flex-wrap: wrap; }
+      .contact-details ul li {
+        width: 100%; }
+
+  .janta-school-features .f-text h6 {
+    font-size: 15px; }
+
+  .janta-school-features .f-icon img {
+    width: 29px; }
+  .janta-school-features .degree img {
+    width: 31px; }
+
+  .form-submit-btn {
+    margin-bottom: 25px; }
+
+  .logged-user-view {
+    margin-right: 60px; }
+
+  .student-detail-background .student-image-view {
+    margin-top: -62px; }
+    .student-detail-background .student-image-view .student-image {
+      width: 117px;
+      height: 117px;
+      border-width: 2px; }
+      .student-detail-background .student-image-view .student-image span {
+        width: 105px;
+        height: 105px; }
+    .student-detail-background .student-image-view .pay-button {
+      right: 0px;
+      position: relative;
+      width: 100%;
+      padding-left: 141px;
+      margin-top: -43px; }
+
+  .background-view {
+    height: 150px; }
+    .background-view img {
+      object-fit: cover;
+      min-height: 150px; }
+
+  .profile-image-wrap {
+    flex-wrap: wrap; }
+
+  .student-detail-card .student-details {
+    padding: 10px 15px; }
+
+  .full-info-students .student-details ul li {
+    margin: 10px 0;
+    width: 100%; } }
+@media (max-width: 575px) {
+  h1 {
+    font-size: 26.3625px; }
+
+  .gbs-slides .carousel-caption .slide-text h1 {
+    margin: 0; }
+  .gbs-slides .carousel-caption .slide-text p {
+    margin-bottom: 0;
+    font-size: 15px; }
+  .gbs-slides .carousel-caption .slide-cta {
+    margin-top: 5px; }
+
+  .gallery-page #gallery {
+    margin-top: 0px; }
+
+  .top-header .row {
+    justify-content: space-between; }
+  .top-header .col-2 {
+    max-width: 200px;
+    min-width: 200px;
+    width: 100%; }
+  .top-header .col-10 {
+    max-width: calc(100% - 200px);
+    width: 100%; }
+
+  .student-detail-card .student-details ul li {
+    width: 100%; }
+    .student-detail-card .student-details ul li span:first-child img {
+      width: 16px; } }
+
+/*# sourceMappingURL=responsive.css.map */

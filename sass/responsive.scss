@@ -1,0 +1,774 @@
+$breakpoint-lg: 1199px;
+$breakpoint-md: 991px;
+$breakpoint-sm: 767px;
+$breakpoint-xs: 575px;
+
+@media (max-width: $breakpoint-lg){
+
+	$font-size-base: 18px;
+
+	// headings
+	$h1-size: $font-size-base * 2.7;
+	$h2-size: $font-size-base * 2;
+	$h3-size: $font-size-base * 2;
+	$h4-size: $font-size-base * 2.2;
+	$h5-size: $font-size-base * 1.5;
+	$h6-size: $font-size-base * 1.025;
+
+	$headings: ();
+
+	$headings: map-merge(
+	  (
+	    "h1": $h1-size,
+	    "h2": $h2-size,
+	    "h3": $h3-size,
+	    "h4": $h4-size,
+	    "h5": $h5-size,
+	    "h6": $h6-size
+	  ),
+	  $headings
+	);
+
+	@each $key, $size in $headings {
+	  #{$key} {
+	    font-size: $size;
+	  }
+	}
+
+	.btn.theme-btn {
+	    padding: 11px 20px;
+	    font-size: 13.5px;
+	}
+
+	body{
+		font-size: 15px;
+	}
+	p {
+	    font-size: 15px;
+	}
+	.top-header{
+		padding: 6px 0;
+		span{
+			width: 20px;
+			img{
+				height: 14.5px;
+			}
+		}
+		.left-top, .right-top{
+			 li{
+			 	&:nth-child(2){
+			 		padding: 0 3px;
+			 		margin: 0 3px;
+			 		span{
+			 			img{
+			 				height: 11px;
+			 			}
+			 		}
+			 	}
+			 	&:nth-child(3){
+			 		span{
+			 			img{
+			 				height: 16px;
+			 			}
+			 		}
+			 	}
+			 	a{
+			 		font-size: 12.5px;
+			 		padding: 0 8px;
+			 	}
+			 }
+		}
+		.col-social{
+		 	justify-content: center;
+		 	margin: 10px 0 0;
+		 }
+	}
+	header{
+		.main-header{
+			top: 58.5px;
+		}
+	}
+	.gbs-logo{
+		padding: 5px 0;
+		a{
+			img{
+				height: 62px;
+			}
+		}
+	}
+	#gbs-navs{
+		.navbar{
+			.nav-item{
+				.nav-link{
+					padding: 0 15px;
+				}
+			}
+		}
+	}
+	.gbs-slides{
+		.carousel-caption{
+			max-width: 670px;
+			.slide-text{
+				padding: 20px 15px;
+			}
+		}
+	}
+	.jgi-main-section{
+		margin-top: -35px;
+	}
+	.pay-box{
+		padding: 35px 15px;
+		.pay-icon{
+			img {
+			    height: 35px;
+			}
+		}
+		.pay-title{
+			h5{
+				font-size: 21px;
+			}
+		}
+	}
+
+	.section-space {
+	    padding: 55px 0;
+	}
+
+	.about-text {
+	    padding-left: 0px;
+	    .about-cta {
+		    margin-top: 20px;
+		}
+	}
+	.list-of-institutions{
+		padding-top: 0;
+	}
+
+	footer {
+	    padding: 45px 0 0;
+	}
+	.copyright {
+	    padding: 18px 0;
+	    margin: 30px 0 0;
+	}
+	.internal-page{
+		padding: 75px 0;
+	}
+	.teacher-name{
+		padding: 12px 15px ;
+		h5{
+			margin-bottom: 5px;
+			font-size: 20px;
+		}
+		small{
+			font-size: 15px;
+		}
+	}
+	.left-positions{
+		.nav{
+			.nav-item{
+				.nav-link{
+					font-size: 14px;
+					padding: 10px 12px;
+				}
+			}
+		}
+	}
+	.open-positions {
+	    margin: 35px 0 0;
+	}
+	.defult-list{
+		li{
+			margin-bottom: 12px;
+			background-size: 17px;
+			padding-left: 27px;
+		}
+	}
+	.default-input {
+	    padding: 10px 15px;
+	    font-size: 15px;
+	}
+	.form-group {
+	    margin-bottom: 20px;
+	}
+	.contact-details{
+		ul{
+			li{
+				padding: 20px 20px 0;
+				.contact-icon{
+					img{
+						height: 38px;
+					}
+				}
+			}
+		}
+	}
+
+	.janta-school-features{
+		padding: 20px 0;
+		.f-icon {
+		    width: 45px;
+		    img {
+			    width: 32px;
+			}
+		}
+		.f-text {
+		    width: calc(100% - 45px);
+		    p{
+				font-size: 14.5px;
+			}
+			h6{
+				margin-bottom: 2px;
+			}
+		}
+		.degree{
+			img {
+			    width: 37px;
+			}
+		}
+		.afforable {
+			img {
+			    width: 30px;
+			}
+		}
+	}
+	.profile-image{
+		width: 35px;
+		height: 35px;
+		img{
+			min-height: 35px;
+		}
+		.logged-username{
+			font-size: 15px;
+		}
+	}
+	.student-detail-background{
+		.student-image-view{
+			margin-top: -120px;
+			.student-image{
+				width: 190px;
+				height: 190px;
+				span{
+					width: 174px;
+					height: 174px;
+				}
+			}
+			.pay-button{
+				right: 130px;
+			}
+		}
+	}
+}	
+
+@media (max-width: $breakpoint-md){
+
+	$font-size-base: 16px;
+
+	// headings
+	$h1-size: $font-size-base * 2.7;
+	$h2-size: $font-size-base * 2;
+	$h3-size: $font-size-base * 2;
+	$h4-size: $font-size-base * 2.2;
+	$h5-size: $font-size-base * 1.5;
+	$h6-size: $font-size-base * 1.025;
+
+	$headings: ();
+
+	$headings: map-merge(
+	  (
+	    "h1": $h1-size,
+	    "h2": $h2-size,
+	    "h3": $h3-size,
+	    "h4": $h4-size,
+	    "h5": $h5-size,
+	    "h6": $h6-size
+	  ),
+	  $headings
+	);
+
+	@each $key, $size in $headings {
+	  #{$key} {
+	    font-size: $size;
+	  }
+	}
+
+	.jgi-main-section{
+	  .container{
+	    padding: 0 30px;
+	  }  
+	}
+	.top-header{
+		.left-top{
+			li{
+				a{
+					text-indent: -999px;
+					padding: 0;
+					span{
+						text-indent: 999px;
+						display: inline-block;
+					}
+				}
+				&:nth-child(2){
+					padding: 0 30px 0 16px;
+    				margin: 0 16px 0 30px;
+				}
+			}			
+		}
+	}
+	.pay-box{
+		padding: 35px 15px;
+		.pay-icon{
+			img {
+			    height: 30px;
+			}
+		}
+		.pay-title{
+			h5{
+				font-size: 19px;
+			}
+		}
+	}
+	.about-text{
+		margin: 25px 0 0;
+	}
+	.gallery-list{
+		li{
+			width: 50%;
+		}
+	}
+	.about-nr-labs-mba{
+		margin-bottom: 35px;
+	}
+	.internal-page {
+	    padding: 50px 0;
+	}
+	.gallery-page{
+		.gallery-list{
+			ul{
+				li {
+				    width: 50%;
+				}
+			}
+		}
+	}
+	.janta-school-features{		
+		.col-md-4{
+			&:nth-child(2){
+				.feature{
+					margin: 25px 0;
+				}
+			}
+		}
+	}
+	.feature{
+		margin: 10px 0;
+	}
+	.janta-school-features {
+		background-color: #0a0808;
+		position: relative !important;
+		margin: 20px auto 0;
+		width: calc(100% - 30px);
+	}
+	.principle-message{
+		.message-to-students {
+		    flex-wrap: wrap;
+		    .profile-photo{
+		top: 0;
+	    width: 150px;
+	    height: 150px;
+	    border-width: 3px;
+	    padding: 3px;
+	    left: calc(50% - 75px);
+	    position: relative;
+		}
+		.message {
+	    width: 100%;
+	    margin: -75px 0 0 0;
+	}
+	.msg-container {
+	    background-color: var(--white);
+	    padding: 90px 25px 25px 20px;
+	    text-align: center;
+	}
+		}
+	}
+		
+		
+	.message-to-students .theme-btn {
+	    position: relative;
+	    z-index: 99;
+	}
+	.sliderarrow{
+	width: 100%;
+	justify-content: space-between;
+	padding: 0 5px;
+	}
+	.top-header{
+		.col-social{
+			justify-content: flex-end;
+			margin: 0;
+		}
+	}
+	header{
+		padding-bottom: 85px;
+		.main-header {
+		  top: 30px;
+		}
+	}
+	#gbs-navs{
+		.navbar{
+			.nav-item{
+				.nav-link{
+					padding: 0 8px;
+					font-size: 14.5px;
+				}
+			}
+		}
+	}
+	.btn.theme-btn {
+	  padding: 9px 15px;
+	  font-size: 12.5px;
+	}
+	.logged-user-view{
+		.logged-username{
+			display: none;
+		}
+	}
+	.student-detail-background{
+		.student-image-view{
+			margin-top: -90px;
+			.student-image{
+				width: 150px;
+				height: 150px;
+				span{
+					width: 134px;
+					height: 134px;
+				}
+			}
+			.pay-button{
+				right: 130px;
+			}
+		}
+	}
+	.student-detail-card{
+		padding-bottom: 60px;
+		.student-image{
+			width: 175px;
+			height: 175px;
+			margin: 20px auto;
+			border-radius: 50%;
+			overflow: hidden;
+
+			img{
+				min-height: 150px;
+				width: 100%;
+
+			}
+		}
+		> a{
+			flex-wrap: wrap;
+			.student-details{
+				width: 100%;
+				padding: 15px 20px;
+			}
+		}
+		.proceed-payment{
+			left: 0;
+			margin-left: 20px;
+		}
+	}
+	.student-detail-card .student-image {
+	  width: 130px;
+	  height: 130px;
+	  img {
+		  min-height: 130px;
+		}
+	}
+}	
+
+@media (max-width: $breakpoint-sm){
+	$font-size-base: 14.25px;
+
+	// headings
+	$h1-size: $font-size-base * 2.27;
+	$h2-size: $font-size-base * 2;
+	$h3-size: $font-size-base * 2;
+	$h4-size: $font-size-base * 2.2;
+	$h5-size: $font-size-base * 1.5;
+	$h6-size: $font-size-base * 1.125;
+
+	$headings: ();
+
+	$headings: map-merge(
+	  (
+	    "h1": $h1-size,
+	    "h2": $h2-size,
+	    "h3": $h3-size,
+	    "h4": $h4-size,
+	    "h5": $h5-size,
+	    "h6": $h6-size
+	  ),
+	  $headings
+	);
+
+	@each $key, $size in $headings {
+	  #{$key} {
+	    font-size: $size;
+	  }
+	}
+
+	header{
+		padding-bottom: 80px;
+		.navbar-toggler {
+		    background-color: #fff;
+		    border-color: #212121;
+		    padding: 2px 8px 5px;
+		    color: #ff4c8d;
+		    z-index: 2;
+		    margin-right: 10px;
+		    width: 35px;
+		    right: 0px;
+		    top: -12px;
+
+		    img{
+		    	height: 12px;
+		    }
+		}
+		.jgi-login {
+		  margin-right: 58px;
+		}
+	}
+	#gbs-navs{
+		margin: 0;
+		width: 100%;
+		.navbar{
+			padding: 0;
+			min-width: 100%;
+			.nav-item {
+				.nav-link{
+					padding: 10px 0;
+				}
+			}
+			.navbar-nav{
+				padding-top: 15px;
+			}
+		}
+	}
+	.search-bar, .navbar-toggler {
+	    position: absolute;
+	    top: -15px;
+	    right: 15px;
+	}
+	.jgi-main-section{
+		margin: 25px 0 0;
+	}
+	.pay-box{
+		margin: 0 0 20px;
+	}
+	.section-space {
+	    padding: 35px 0;
+	}
+	.about-gbs{
+		padding-top: 20px;
+	}
+	.gbs-slides{
+		.slide-arrow {
+			span{
+				width: 32px;
+				height: 32px;
+			}
+			img {
+			    height: 10px;
+			}
+		}
+		.carousel-caption {
+		    max-width: 100%;
+		    padding: 0;
+		    background-color: rgba(255, 255, 255, 0.75);
+		    height: 100%;
+
+		    .slide-text{
+		    	background-color: transparent;
+		    	padding: 0;
+		    	p{
+		    		font-size: 17px;
+		    	}
+		    }
+		    .slide-cta {
+			    margin-top: 10px;
+			}
+		}
+	}
+	.btn.theme-btn {
+	    padding: 9px 17px;
+	    font-size: 13px;
+	}
+	#gallery{
+		margin-top: 25px;
+	}
+
+	.about-nr-labs-mba {
+	    margin-bottom: 27px;
+	}
+	.footer-links{
+		margin-bottom: 25px;
+	}
+	.position-detils{
+		margin-top: 25px;
+	}
+	.contact-details{
+		margin-top: 20px;
+		ul{
+			flex-wrap: wrap;
+			li{
+				width: 100%;
+			}
+		}
+	}
+	.janta-school-features{
+		.f-text{
+			h6{
+				font-size: 15px;
+			}
+		}
+	}
+	.janta-school-features{
+		.f-icon{
+			img{
+				width: 29px;
+			}
+		}
+		.degree{
+			img {
+			    width: 31px;
+			}
+		}
+	}
+	.form-submit-btn{
+		margin-bottom: 25px;
+	}
+	.logged-user-view {
+	  margin-right: 60px;
+	}
+	.student-detail-background{
+		.student-image-view{
+			margin-top: -62px;
+			.student-image{
+				width: 117px;
+				height: 117px;
+				border-width: 2px;
+				span{
+					width: 105px;
+					height: 105px;
+				}
+			}
+			.pay-button{
+				right: 0px;
+				position: relative;
+				width: 100%;
+				padding-left: 141px;
+				margin-top: -43px;
+			}
+		}
+	}
+	.background-view{
+		height: 150px;
+		img{
+			object-fit: cover;
+			min-height: 150px;
+		}
+	}
+	.profile-image-wrap{
+		flex-wrap: wrap;
+	}
+	.student-detail-card{
+		.student-details{
+			padding: 10px 15px;
+		}
+	}
+	.full-info-students{
+		.student-details{
+			ul{
+				li{
+					margin: 10px 0;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: $breakpoint-xs){
+	$font-size-base: 14.25px;
+
+	// headings
+	$h1-size: $font-size-base * 1.85;
+
+	$headings: ();
+
+	$headings: map-merge(
+	  (
+	    "h1": $h1-size
+	  ),
+	  $headings
+	);
+
+	@each $key, $size in $headings {
+	  #{$key} {
+	    font-size: $size;
+	  }
+	}
+
+	.gbs-slides{
+		.carousel-caption{
+			.slide-text{
+				h1{
+					margin: 0;
+				}
+				p{
+					margin-bottom: 0;
+					font-size: 15px;
+				}
+			}
+			.slide-cta {
+			    margin-top: 5px;
+			}
+		}
+	}
+	.gallery-page{
+		#gallery{
+			margin-top: 0px;
+		}
+	}
+	.top-header{
+		.row{
+			justify-content: space-between;
+		}
+		.col-2{
+			max-width: 200px;
+			min-width: 200px;
+    		width: 100%;
+		}
+		.col-10{
+			max-width: calc(100% - 200px);
+			width: 100%;
+		}
+	}
+	.student-detail-card {
+		.student-details{
+			ul{
+				li{
+					width: 100%;
+					span{
+						&:first-child{
+							img{
+								width: 16px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
